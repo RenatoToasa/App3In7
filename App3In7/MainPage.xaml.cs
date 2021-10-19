@@ -21,7 +21,7 @@ namespace App3In7
             string usuario = txtUsuario.Text;
             string clave = txtClave.Text;
            await DisplayAlert("mensaje", usuario, "ok");
-             //Abrir pantalla dos - envio de datos entre pantallas
+             //Abrir pantalla dos - envio de datos entre pantallas, O VENTANAS
             await Navigation.PushAsync(new viewDos(usuario, clave)); //rtoasa   12345
         }
     }

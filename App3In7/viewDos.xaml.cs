@@ -17,6 +17,7 @@ namespace App3In7
         {
             InitializeComponent();
             //visualizar datos
+            //Prueba GIT XAMARIN
             lblUsuario.Text = usuario; //rtoasa
             lblClave.Text = clave; //12345
 
